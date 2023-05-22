@@ -1,0 +1,21 @@
+* {
+  cursor: pointer;
+  background-color: yellowgreen;
+}
+
+#box {
+  position: absolute;
+  left: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#box input {
+  width: 120px;
+  height: 30px;
+  background-color: violet;
+  font-weight: bolder;
+}
